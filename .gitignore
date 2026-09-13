@@ -1,0 +1,16 @@
+node_modules/
+server/data/
+*.db
+*.db-journal
+.env
+
+# student uploads shouldn't be in git but keep the folder itself tracked
+sites-storage/*
+!sites-storage/.gitkeep
+
+# build output
+dist/
+
+# os junk
+.DS_Store
+Thumbs.db
